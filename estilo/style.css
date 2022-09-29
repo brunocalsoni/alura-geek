@@ -137,6 +137,21 @@ aside {
     padding: 40px;
 }
 
+li {
+    margin-bottom: 20px;
+}
+
+li a {
+    text-decoration: none;
+    color: var(--cor3);
+    transition: 0.5s;
+}
+
+li > a:hover {
+    text-decoration: underline;
+    
+}
+
 fieldset {
     border: none;
 }
@@ -175,6 +190,11 @@ textarea {
     height: 50px;
     border-radius: 0px;
     cursor: pointer;
+    transition: 0.5s;
+}
+
+.submit:hover {
+    transform: scale(.95);
 }
 
 footer {
