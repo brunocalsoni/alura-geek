@@ -113,11 +113,15 @@ section h2 {
 }
 
 section p {
-    padding-bottom: 15px;
+    padding-bottom: 10px;
 }
 
 section div {
     margin: 10px;
+}
+
+div.mais {
+    text-align: right;
 }
 
 img.produtos {
