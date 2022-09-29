@@ -44,6 +44,10 @@ nav input {
     font-weight: bold;
 }
 
+.login:hover {
+    background-color: var(--cor2);
+}
+
 
 header {
     height: 300px;
@@ -78,7 +82,12 @@ header p {
 
 header a {
     display: block;
-    padding-left: 20%; 
+    padding-left: 20%;
+    transition-duration: 0.5s; 
+}
+
+header > a:hover {
+    transform: scale(.99);
 }
 
 div.flex-header {
