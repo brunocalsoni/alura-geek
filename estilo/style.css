@@ -48,7 +48,6 @@ nav input {
     background-color: var(--cor2);
 }
 
-
 header {
     height: 300px;
     background-image: url('../imagens/hero.png');
@@ -57,7 +56,7 @@ header {
     background-size: cover;
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
+    justify-content: center;
     align-items: flex-start;
     padding-left: 20%;
 }
@@ -66,18 +65,21 @@ header {
 header h1 {
     color: white;
     font-size: 2.5em;
+    margin-bottom: 20px;
 }
 
 header p {
     color: white;
     font-weight: bold;
+    margin-bottom: 20px;
 }
 
 header a {
+    display: block;
     transition-duration: 0.5s;
 }
 
-header > a:hover {
+header a:hover {
     transform: scale(.95);
 }
 
